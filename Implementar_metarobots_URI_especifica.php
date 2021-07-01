@@ -1,5 +1,5 @@
 <?php 
-//Tienes que implementar una regex que coincida con la URI a la que quieres implementar el meta
+//Tienes que definir una regex que coincida con la URI a la que quieres implementar el meta
 $uri = $_SERVER["REQUEST_URI"];
 if(preg_match("/%RegEx%/", $uri)) 
 {
